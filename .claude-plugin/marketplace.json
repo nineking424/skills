@@ -1,11 +1,11 @@
 {
-  "name": "anthropic-agent-skills",
+  "name": "nineking-agent-skills",
   "owner": {
-    "name": "Keith Lazuka",
-    "email": "klazuka@anthropic.com"
+    "name": "Jeong Seoktae",
+    "email": "nineking424@gmail.com"
   },
   "metadata": {
-    "description": "Anthropic example skills",
+    "description": "Nineking's example skills",
     "version": "1.0.0"
   },
   "plugins": [
