@@ -10,35 +10,61 @@
   },
   "plugins": [
     {
-      "name": "document-skills",
-      "description": "Collection of document processing suite including Excel, Word, PowerPoint, and PDF capabilities",
+      "name": "workflow",
+      "description": "Core development workflow skills including prompt enhancement, code generation, testing, review, refactoring, and documentation",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/xlsx",
-        "./skills/docx",
-        "./skills/pptx",
-        "./skills/pdf"
+        "./skills/prompt-enhancer",
+        "./skills/developer",
+        "./skills/tester",
+        "./skills/code-reviewer",
+        "./skills/refactorer",
+        "./skills/document-maintainer"
       ]
     },
     {
-      "name": "example-skills",
-      "description": "Collection of example skills demonstrating various capabilities including skill creation, MCP building, visual design, algorithmic art, internal communications, web testing, artifact building, Slack GIFs, and theme styling",
+      "name": "quality-gate",
+      "description": "Quality assurance skills for security auditing, performance analysis, and debugging",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/algorithmic-art",
-        "./skills/brand-guidelines",
-        "./skills/canvas-design",
-        "./skills/doc-coauthoring",
-        "./skills/frontend-design",
-        "./skills/internal-comms",
-        "./skills/mcp-builder",
-        "./skills/skill-creator",
-        "./skills/slack-gif-creator",
-        "./skills/theme-factory",
-        "./skills/web-artifacts-builder",
-        "./skills/webapp-testing"
+        "./skills/security-auditor",
+        "./skills/performance-analyzer",
+        "./skills/debugger"
+      ]
+    },
+    {
+      "name": "design",
+      "description": "Design tools for API design, system architecture, and CI/CD pipeline design",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/api-designer",
+        "./skills/architecture-advisor",
+        "./skills/cicd-designer"
+      ]
+    },
+    {
+      "name": "domain",
+      "description": "Domain-specific skills for Kafka, Kubernetes, databases, Airflow, and ETL pipelines",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/kafka-expert",
+        "./skills/k8s-specialist",
+        "./skills/database-optimizer",
+        "./skills/airflow-architect",
+        "./skills/etl-pipeline-builder"
+      ]
+    },
+    {
+      "name": "utility",
+      "description": "Utility skills for skill packaging and marketplace distribution",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/skill-packager"
       ]
     }
   ]
