@@ -55,7 +55,7 @@
 
 1. 마켓플레이스 등록:
 ```bash
-/plugin marketplace add nineking/skills
+/plugin marketplace add nineking424/skills
 ```
 
 2. 플러그인 설치:
